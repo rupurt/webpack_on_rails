@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%%= csrf_meta_tags %>
+
+    <%%= stylesheet_link_tag "webpack-application", media: :all %>
+  </head>
+  <body>
+    <%%= yield %>
+
+    <%%= javascript_include_tag "webpack-application" %>
+  </body>
+</html>

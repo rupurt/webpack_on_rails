@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+html, body {
+  background-color: $ice-blue;
+}
+
+.webpackApplication {
+  border: solid 2px $grey;
+  padding: $padding;
+}

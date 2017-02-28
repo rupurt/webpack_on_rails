@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Client assets",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config ./config/production.js",
+    "build:dev": "webpack --config ./config/development.js --watch",
+    "server": "webpack-dev-server --config ./config/server.development.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupurt/webpack_on_rails.git"
+  },
+  "keywords": [
+    "webpack",
+    "rails"
+  ],
+  "author": "You",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rupurt/webpack_on_rails/issues"
+  },
+  "homepage": "https://github.com/rupurt/webpack_on_rails#readme",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "compression-webpack-plugin": "^0.3.2",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0",
+    "webpack-sprockets-rails-manifest-plugin": "^0.0.4"
+  },
+  "devDependencies": {}
+}
