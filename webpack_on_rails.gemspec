@@ -9,19 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alex Kwiatkowski"]
   spec.email         = ["alex+git@rival-studios.com"]
 
-  spec.summary       = %q{FOO}
-  spec.description   = %q{FOO}
+  spec.summary       = %q{Use the full power of Webpack within your Rails app}
+  spec.description   = %q{Use the full power of Webpack within your Rails app, leverage existing view helpers like javascript_include_tag & stylesheet_link_tag}
   spec.homepage      = "https://github.com/rupurt/webpack_on_rails"
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
